@@ -25,6 +25,11 @@
 .form-container button{
     display: inline;
 }
+.form-container p{
+    padding-top: 1.5rem;
+    text-align: center;
+    color: green;
+}
 
 @media screen and (max-width:850px) {
     .form-container{

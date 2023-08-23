@@ -1,8 +1,15 @@
 import React from 'react'
+import SearchTrip from '../components/SearchTrip/SearchTrip'
+import Navbar from '../components/Navbar/Navbar'
+import Footer from '../components/Footer/Footer'
 
 const Search = () => {
   return (
-    <div>Search</div>
+    <div>
+        <Navbar/>
+        <SearchTrip />
+        <Footer />
+    </div>
   )
 }
 

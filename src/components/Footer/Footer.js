@@ -1,5 +1,6 @@
 import React from 'react'
 import "./FooterStyle.css";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -10,44 +11,44 @@ const Footer = () => {
                <p>Choose Your Favourite destination</p>
             </div>
             <div>
-                <a href='/'>
+                <Link to='/'>
                     <i className='fa-brands fa-facebook-square'></i>
-                </a>
-                <a href='/'>
+                </Link>
+                <Link to='/'>
                     <i className='fa-brands fa-instagram-square'></i>
-                </a>
-                <a href='/'>
+                </Link>
+                <Link to='/'>
                     <i className='fa-brands fa-github-square'></i>
-                </a>
-                <a href='/'>
+                </Link>
+                <Link to='/'>
                     <i className='fa-brands fa-twitter-square'></i>
-                </a>
+                </Link>
             </div>
         </div>
         <div className='bottom'>
             <div>
                 <h3>Projects</h3>
-                <a href='/'>Status</a>
-                <a href='/'>License</a>
-                <a href='/'>CheckLog</a>
-                <a href='/'>All Versions</a>
+                <Link to='/'>Status</Link>
+                <Link to='/'>License</Link>
+                <Link to='/'>CheckLog</Link>
+                <Link to='/'>All Versions</Link>
             </div>
             <div>
                 <h3>Community</h3>
-                <a href='/'>Github</a>
-                <a href='/'>Issues</a>
-                <a href='/'>Projects</a>
+                <Link to='/'>Github</Link>
+                <Link to='/'>Issues</Link>
+                <Link to='/'>Projects</Link>
             </div>
             <div>
                 <h3>Helps</h3>
-                <a href='/'>TroubleShooting</a>
-                <a href='/'>Support</a>
-                <a href='/'>ContactUs</a>
+                <Link to='/'>TroubleShooting</Link>
+                <Link to='/'>Support</Link>
+                <Link to='/'>ContactUs</Link>
             </div>
             <div>
                 <h3>Others</h3>
-                <a href='/'>Terms & Services</a>
-                <a href='/'>Privacy Policy</a>
+                <Link to='/'>Terms & Services</Link>
+                <Link to='/'>Privacy Policy</Link>
             </div>
         </div>
     </div>

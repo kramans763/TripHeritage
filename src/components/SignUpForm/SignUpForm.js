@@ -79,7 +79,7 @@ const SignUpForm = () => {
 
     function ValidateTheFormField(event, inputKey) {
         
-        let value = event.target.value ; // "utk1"
+        let value = event.target.value ; 
 
         let localError = {};
 
@@ -137,7 +137,7 @@ const SignUpForm = () => {
                     placeholder='Name*'   
                 >
                 </input>
-                <div style={{color: "red"}}>{errorState.name}</div>
+                <div className='error'>{errorState.name}</div>
     
                 <input 
                     onChange={(event) => {changehandler(event, "email")}} 
@@ -145,7 +145,7 @@ const SignUpForm = () => {
                     onBlur={(event) => {onBlurHandler(event, "email")}}  
                     placeholder='Email*'
                 ></input>
-                <div style={{color: "red"}}>{touchedState.email && errorState.email}</div>
+                <div className='error'>{touchedState.email && errorState.email}</div>
 
                 <input 
                     onChange={(event) => {changehandler(event, "phone")}} 
@@ -153,7 +153,7 @@ const SignUpForm = () => {
                     onBlur={(event) => {onBlurHandler(event, "phone")}} 
                     placeholder='Phone*'
                     ></input>
-                <div style={{color: "red"}}>{errorState.phone}</div>
+                <div className='error'>{errorState.phone}</div>
 
                 <input className='submit-btn' type="submit" onClick={handleClick}/>
             </form> 
