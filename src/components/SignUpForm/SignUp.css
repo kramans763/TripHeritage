@@ -1,0 +1,36 @@
+.form-container{
+    padding: 8rem 6rem;
+    color: #2a2a2a;
+}
+.form-container form{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: auto;
+}
+.form-container input{
+    height: 2rem;
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2a2a2a;
+}
+
+.submit-btn{
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    width: 50%;
+    text-align: center;
+    margin-left: 50px;
+
+}
+.submit-btn:hover{
+    background-color: black;
+    color: white;
+}

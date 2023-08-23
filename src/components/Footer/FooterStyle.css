@@ -1,0 +1,54 @@
+.footer{
+    padding: 4rem 6rem;
+    background-color: black;
+    color: white;
+}
+.top{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.top i{
+    color: white;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+.top i:hover{
+    color: aqua;
+}
+
+.bottom{
+  padding-top: 2rem;
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bottom div{
+    display: flex;
+    flex-direction: column;
+}
+.bottom h3{
+    font-size: 1.3rem;
+    padding: 1rem 0 0.8rem 0;
+}
+.bottom a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width:850px){
+    .footer{
+        padding: 4rem 2rem;
+    }
+    .top i{
+       margin: 1rem 1rem 0 0; 
+    }
+    .bottom div{
+        width: 50%;
+    }
+}

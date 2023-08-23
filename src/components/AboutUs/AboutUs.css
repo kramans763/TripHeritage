@@ -1,0 +1,16 @@
+.aboutUs{
+    padding: 4rem 6rem;
+    text-align: start;
+}
+.aboutUs h1{
+    padding-bottom: 1rem;
+}
+.aboutUs p{
+    padding-bottom: 2rem;
+}
+
+@media screen  and (max-width:850px){
+    .aboutUs{
+        padding: 4rem 2rem;
+    }
+}
